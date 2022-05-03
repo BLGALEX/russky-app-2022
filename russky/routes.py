@@ -45,6 +45,6 @@ def avatar() -> Response:
     return Response(content=image, media_type='image/svg+xml')
 
 
-@app.get('/health')
+@app.get('/health1')
 async def health() -> str:
     return 'OK'
